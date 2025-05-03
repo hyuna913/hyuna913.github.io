@@ -52,14 +52,19 @@
 	<h2>Papers</h2>
 		<ol reversed class="mylist">
 			<li>S. Park, H. Lim, and A. Gumel, Mathematical assessment of roles of vaccination and Pap screening on incidence of HPV and cancer (In progress)<br></li>
-			<li>D. Levy, H. Lim, A. Mellet, and M. Wildes, Age-structured mechanical models for tumor growth
+			<li>D. Levy, H. Lim, A. Mellet, and M. Wildes, Age-structured mechanical models for tumor growth (Submitted)
 			<li>H.Lim, Some basic understandings of the Lascar Group : Lascar Group is a topological group (Master's thesis),  Graduate School, Yonsei University , Department of Mathematics , 2019.2 <a href="https://www.riss.kr/search/detail/ssoSkipDetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=6179be5fa1cb6711ffe0bdc3ef48d419">RISS</a><br></li>
 
 		</ol>
 	<hr/>
 
 	<h2>Simulations using ABM</h2>
-		Following the work in <A HREF="http://www.sciencedirect.com/science/article/pii/S0022519319304217">A.Jenner et al.,
+		<a href="Files/OV_results.pdf">This</a> is a simulation of growing tumor under oncolytic virotherapy, following the work in <A HREF="http://www.sciencedirect.com/science/article/pii/S0022519319304217">A.Jenner et al.(2020).
+		Using an Agent Based Model, pressure is the main factor in proliferation of tumor cells, and off-latice voronoi cell-based domain is used for the cells.
+		Cells can be either healthy cells (white), uninfected tumor cells (green), infected tumor cells (red), newly proliferated tumor cells (yellow), and slowly disintegrating dead tumor cells (gray).
+		Virus agents represented by the red dots can move or wait stochastically, and can infect nearby tumor cells with high chance.
+		When infection happens, virus agents get into the infected cell to proliferate, and kills the cell in time. An increased number of virus agents are released through cell lysis at the time of cell death.
+		Dead tumor cells slowly disappear from the domain, decreasing in size. 
 	<hr/>
 </div>
 
