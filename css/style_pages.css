@@ -117,3 +117,12 @@ h2{
 	margin:0.8em 0em;
 	font-family: Arial, sans-serif;
 }
+
+.image-row {
+    display: flex;
+    gap: 0;
+}
+
+.single-image img {
+    display: block;
+}
